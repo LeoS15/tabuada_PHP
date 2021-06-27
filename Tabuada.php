@@ -1,5 +1,9 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 <style>
-       .tabuada{
+        .tabuada{
         background-color:#8B0000;
         width:16vw;
         display:inline-block;
@@ -25,7 +29,22 @@
         border-radius:0.1vw;
         
     }
+    @media(max-width:900px){
+       .tabuada {
+        display: block;
+        margin: 1vw auto;
+        width: 90%;
+        padding:3vw
+    }
+    .tabuada h1 {
+        font-size: 3rem
+    }
+    .tabuada p {
+        font-size: 2rem
+    }
+}
  
+
 </style>
 <?php
     for($i = 1; $i < 11; $i++){
